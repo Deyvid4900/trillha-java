@@ -16,7 +16,7 @@ public class ContaTerminal {
         System.out.println("Digite o saldo da conta:");
         float saldoConta = scanner.nextFloat();
 
-        System.out.println("A conta do(a) "+ nomeCliente +" foi criada com " + saldoConta + " reais");
+        System.out.println("A conta do(a) "+ nomeCliente +" foi criada com " + saldoConta + " reais, o numero da conta é"+numeroConta+"e a agência é"+agencia);
 
     }
 }
